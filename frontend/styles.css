@@ -1,0 +1,32 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-logo {
+	width: 100px;
+	height: 100px;
+}
+
+.title-links {
+	display: flex;
+}
+
+.title-link {
+	font-size: 20px;
+	padding: 0 15px;
+}
+
+.title-link > a {
+	color: white;
+	text-decoration: none;
+}
+
+.title-link:visited { 
+	color: white;
+}
+
+.title-link:hover {
+	border-bottom: 2px solid white;
+}
